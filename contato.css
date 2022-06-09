@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body{
+    width: 100%;
+    background-image: url(assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+}
+#Principal{
+    width: 800px;
+    margin-inline: auto;
+}
+.capa{
+    display: flex;
+    border-radius: 4px;
+    width: 900px;
+    margin: 10px;
+    margin-inline: auto;
+}
+#Menu{
+    background: #ffffffe3;
+    padding: 17px;
+    border-radius: 3px;
+    text-align: center;
+    align-items: justify;
+}
+#Menu a:hover{
+    color: rgb(240, 116, 14);
+    transition: .3s;
+}
+.logo{
+    transform: translateY(-30px);
+    width: 80px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 32, 32);
+    font-weight: bold;
+    padding: 5px;
+}
+#container{
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 3x;
+    margin-top: 5px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+input, textarea{
+    position: relative;
+    padding: 10px;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+
+}
+.retrato{
+    position: relative;
+    top: -190px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 200px;
+}
+.rodape{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    top: 150px;
+}
+
+@media (max-width:700px){
+
+body{
+    width: 100%;
+    background-image: url(assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+}
+#Principal{
+    width: 800px;
+    margin-inline: auto;
+}
+.capa{
+    display: flex;
+    border-radius: 4px;
+    width: 900px;
+    margin: 10px;
+    margin-inline: auto;
+}
+#Menu{
+    background: #ffffffe3;
+    padding: 17px;
+    border-radius: 3px;
+    text-align: center;
+    align-items: justify;
+}
+#Menu a:hover{
+    color: rgb(240, 116, 14);
+    transition: .3s;
+}
+.logo{
+    transform: translateY(10px);
+    width: 60px;
+    align-items: center;
+    margin: -15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 32, 32);
+    font-weight: bold;
+    padding: 5px;
+    font-size: 18px;
+}
+#container{
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 3x;
+    margin-top: 5px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+input, textarea{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.retrato{
+    position: relative;
+    top: -170px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 150px;
+}
+.rodape{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    position: relative;
+    left: 20%;
+}
+}

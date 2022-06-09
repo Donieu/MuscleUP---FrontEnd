@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body{
+    width: 100%;
+    background-image: url(assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+}
+#Principal{
+    width: 800px;
+    margin-inline: auto;
+}
+.capa{
+    display: flex;
+    border-radius: 4px;
+    width: 900px;
+    margin: 10px;
+    margin-inline: auto;
+}
+#Menu{
+    background: #ffffffe3;
+    padding: 17px;
+    border-radius: 3px;
+    text-align: center;
+    align-items: justify;
+}
+#Menu a:hover{
+    color: rgb(240, 116, 14);
+    transition: .3s;
+}
+.logo{
+    transform: translateY(-30px);
+    width: 80px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 32, 32);
+    font-weight: bold;
+    padding: 5px;
+}
+#contain{
+    text-indent: 30px;
+    display: inline;
+    float: right;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.815);
+    color:aliceblue;
+    text-align: justify;
+}
+.sobre1{
+    padding: 7px;
+    border-radius: 15px;
+    width: 240px;
+}
+#container{
+    display: flex;
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+.relato{
+    margin-top: 50px;
+}
+.rodape{
+    padding: 1px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width:700px){
+
+    body{
+        width: 100%;
+        background-image: url(assets/fundo.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 16px;
+    }
+    #Principal{
+        width: 800px;
+        margin-inline: auto;
+    }
+    .capa{
+        display: flex;
+        border-radius: 4px;
+        width: 900px;
+        margin: 10px;
+        margin-inline: auto;
+    }
+    #Menu{
+        background: #ffffffe3;
+        padding: 17px;
+        border-radius: 3px;
+        text-align: center;
+        align-items: justify;
+    }
+    #Menu a:hover{
+        color: rgb(240, 116, 14);
+        transition: .3s;
+    }
+    .logo{
+        transform: translateY(10px);
+        width: 60px;
+        align-items: center;
+        margin: -15px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(34, 32, 32);
+        font-weight: bold;
+        padding: 5px;
+        font-size: 18px;
+    }
+    #contain{
+        text-indent: 30px;
+        display: inline;
+        float: right;
+        border-radius: 3px;
+        margin-top: 5px;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.815);
+        color:aliceblue;
+        text-align: justify;
+        font-size: 17px;
+    }
+    .sobre1{
+        padding: 7px;
+        border-radius: 15px;
+        width: 150px;
+    }
+    .title1{
+        text-align: center;
+        color: rgb(255, 166, 0);
+    }
+    #container{
+        display: flex;
+        width: 400px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .relato{
+        margin-top: 50px;
+        text-align: center;
+        color: rgb(255, 166, 0);
+    }
+    
+
+}
